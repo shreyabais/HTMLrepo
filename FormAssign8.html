@@ -1,0 +1,96 @@
+<DOCTYPE html>
+<html>
+     <head>
+	       <style>
+		         table,tr,td{
+				    
+					 padding:30px;
+				 }
+		   </style>
+	 </head>
+	 <body>
+	       <fieldset style="background-color:#1ac745; border:3px solid black;">
+		          <legend style="text-align:center;"><b>USER FORM</b></legend>
+				  
+				  <table>
+				        <form>
+						      <tr>
+							      <td><label for="fname">FIRST NAME</label></td>
+								  <td><input type="text" id="fname" name="name"></td>
+							  </tr>
+							  
+							  <tr>
+						          <td><label for="pwd">PASSWORD</label></td>
+								  <td><input type="password" id="pwd" name="pwd"></td>
+						      </tr>	  
+                              
+							  <tr>
+					              <td><label for="gender">GENDER</label></td>
+						          <td>
+						             <input type="radio" id="male" name="gender">
+						             <label for="male">Male</label>
+							         <input type="radio" id="female" name="gender">
+						             <label for="female">Female</label>
+						     </td>
+					       </tr>
+						   
+						   <tr>
+						     <td><label for="addr">ADDRESS</label></td>
+							 <td><textarea id="addr" name="addr" rows="5" cols="20"></textarea></td>
+					    </tr>
+						
+						<tr>
+						    <td><label for="dbo">D.O.B</label></td>
+							<td>
+							    <input type="date" id="dbo" name="dbo">
+								<input type="month" id="dbo" name="dbo">
+								<input type="year" id="dbo" name="dbo" min="2020" max="2022">
+							</td>
+						</tr>
+					
+						
+						<tr>
+						     <td><label for="addr">SELECT GAME</label></td>
+							 <td>
+							 <input type="checkbox" id="chk" name="chk">
+							 <label for="chk">Hockey</label>
+							 
+							 <input type="checkbox" id="football" name="football">
+							 <label for="football">Football</label>
+							 
+							 <input type="checkbox" id="Cricket" name="Cricket">
+							 <label for="Cricket">Cricket</label>
+							 
+							 <input type="checkbox" id="Volleyball" name="Volleyball">
+							 <label for="Volleyball">Volleyball</label>
+				        </td>
+						
+						<tr>
+					      <td><label for="gender">MARITAL STATUS</label></td>
+						  <td>
+						      <input type="radio" id="married" name="status">
+						      <label for="married">Married</label>
+							  <input type="radio" id="unmarried" name="status">
+						      <label for="unmarried">Unmarried</label>
+						  </td>
+					  </tr>
+					  
+					  <tr>
+					         <td colspan="1"></td>
+						     <td>
+							 <input type="submit" value="Submit" id="btn1">
+							 <input type="submit" value="Reset" id="btn2">
+							 </td>
+					  </tr>
+					  
+					  <tr>
+					      <td colspan="1"></td>
+						 <td><input type="checkbox" name="chk" id="chk" value="chk">
+						 <label for="chk">I accept this agrement</label></td>
+					 </tr>
+						
+						</form>
+				  </table>
+		   </fieldset>
+	 </body>
+</html>

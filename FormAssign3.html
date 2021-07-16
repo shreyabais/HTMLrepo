@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	       <style>
+		           table, tr, td {
+				         border:1px solid black ;
+						 border-collapse:collapse;
+						 color:yellow;
+						 padding:10px;
+				   }
+		   </style>
+	 </head>
+	 <body>
+	 <center>
+	       <table style="background-color:#0a0430">
+		          <form>
+				         <tr style="background-color:#fa7b05">
+						     <td colspan="4"><label>Sign Up</label></td>
+						 </tr>
+						 
+						 <tr>
+						     <td><label for="fname">First Name</label></td>
+							 <td colspan="3"><input type="text" id="fname" name="fname" placeholder="Enter First Name" ></td>
+						 </tr>
+						  <tr>
+						     <td><label for="lname">Last Name</label></td>
+							 <td colspan="3"><input type="text" id="lname" name="lname" placeholder="Enter Last Name" ></td>
+						 </tr>
+						 <tr>
+						     <td><label for="Date">Date of Birth</label></td>
+							 <td>
+							     <input type="date" id="Date" name="Date">
+							     <input type="month" id="Date" name="Date">
+								
+							 </td>
+						 </tr>
+				      
+					     <tr>
+					              <td><label for="gender">GENDER</label></td>
+						          <td>
+						             <input type="radio" id="male" name="gender">
+						             <label for="male">Male</label>
+							         <input type="radio" id="female" name="gender">
+						             <label for="female">Female</label>
+						     </td>
+					       </tr>
+						   
+						   
+						   <tr>
+						       <td>
+						             <label for="country">Country</label>
+						       </td>
+						    <td>
+				            <select id="country" name="country">
+				            <option value="">Country </option>  
+					        <option value="India">India</option>
+					        <option value="Italy">Italy</option>
+				            <option value="Japan">Japan</option>
+				            <option value="Belgium">Belgium</option>
+				            <option value="Brazil">Brazil</option>
+				            <option value="Fiji">Fiji</option>
+				            <option value="Germany">Germany</option>
+				            <option value="Nigeria">Nigeria</option>
+				           </select>
+				           </td>
+						 </tr>
+						 
+						 <tr>
+						      <td><label for="email"> Email:</label></td>
+							  <td>
+							  <input type="email" id="email" name="email"  required  autocomplete="off"></td>
+						  </tr>
+						  
+						  <tr>
+						      <td><label for="phone">Phone</label></td>
+							  <td><input type="tel" id="phone" name="phone" minlength="5" maxlength="12"></td>
+						  </tr>
+						  
+						  <tr>
+						  <td><label for="pwd">Password</label></td>
+				          <td><input type="password" name="pwd" id="pwd" placeholder="Enter Password">
+						  </td>
+						  </tr>
+						  
+						  <tr>
+						  <td><label for="cpwd">Confirm Password</label></td>
+				          <td><input type="password" name="cpwd" id="cpwd" placeholder="Enter confirm Password">
+						  </td>
+						  </tr>
+						  
+						   <tr>
+					      <td colspan="1"></td>
+						 <td><input type="checkbox" name="chk" id="chk" value="chk">
+						 <label for="chk">I agree to the Terms of use</label></td>
+					 </tr>
+					 
+					 
+				        <tr style="background-color:#fa7b05">
+					         <td colspan="1" ></td>
+						     <td>
+							 <input type="submit" value="Submit" id="btn1">
+							 <input type="submit" value="Cancel" id="btn2">
+							 </td>
+					  </tr>
+						
+						
+				 </form>
+		   
+		   </table>
+		   </center>
+	 </body>
+</html>

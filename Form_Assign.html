@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+        <head>
+		         <style>
+				        h1{
+						    color:#f58105;
+						  }
+						 legend{
+						       color:#f58105;
+						 } 
+						 #submit{
+						         background-color:orange;
+								 color:white;
+								 border:2px solid green;
+						 }
+						 fieldset{
+						         border: 3px solid green;
+						 }
+						 
+				 </style>
+		</head>
+		<body>
+		
+		        <fieldset style="border:3px solid black;">
+				
+				<h1>Dado Tea Lunch Special</h1>
+				
+				<p> Monday through Friday<br>
+				11am-3pm<br>
+				$9.95 plus tax<br><br>
+					 
+					  Including sandwich,snack,and drink.
+				</p>
+				
+		            <!--First -->
+		        <fieldset>
+				<legend>Order Information</legend>
+				           <table>
+						          <form>
+								         <tr>
+                                                <td><label for="name">Name</label></td>
+										</tr>	
+                                         <tr>										
+                                                <td><input type="text" name="name" id="name" size="175"></td>
+
+                                                											
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn" id="here" value="here">
+						                     <label for="here">Here</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn" id="togo" value="togo">
+						                     <label for="togo">To Go</label></td>
+										 </tr>
+								  </form>
+						   
+						   </table>
+                
+				</fieldset>
+				
+				<!--second -->
+				
+				<fieldset>
+				<legend>Sandwiches</legend>
+				           <table>
+						          <form>
+								         <tr><td><label>Monday</label></td></tr>
+								        <tr>
+										     <td><input type="radio" name="radiobtn1" id="TM" value="TM">
+						                     <label for="TM">Tomato Mozzarella</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn1" id="CS" value="CS">
+						                     <label for="CS">Chicken Salad</label></td>
+										 </tr>
+										 
+										 <tr><td><label>Tuesday</label></td></tr>
+										 <tr>
+										     <td><input type="radio" name="radiobtn2" id="GSW" value="GSW">
+						                     <label for="GSW">Greek Salad Wrap</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn2" id="TW" value="TW">
+						                     <label for="TW">TOto Wrap</label></td>
+										 </tr>
+										 
+										  <tr><td><label>Wednesday</label></td></tr>
+										 <tr>
+										     <td><input type="radio" name="radiobtn3" id="RPH" value="RPH">
+						                     <label for="RPH">Red Peppaer Hummus</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn3" id="RT" value="RT">
+						                     <label for="RT">Roasted Turkey</label></td>
+										 </tr>
+										 
+										 <tr><td><label>Thursday</label></td></tr>
+										 <tr>
+										     <td><input type="radio" name="radiobtn4" id="CGHW" value="CGHW">
+						                     <label for="CGHW">Carrot-Ginger Hummus Wrap</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn4" id="EG" value="EG">
+						                     <label for="EG">Egg-Salad</label></td>
+										 </tr>
+										 
+										 <tr><td><label>Friday</label></td></tr>
+										 <tr>
+										     <td><input type="radio" name="radiobtn5" id="DW" value="DW">
+						                     <label for="DW">Dado Wrap</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn5" id="TS" value="TS">
+						                     <label for="TS">Tuna Salad</label></td>
+										 </tr>
+										 
+										 <br>
+										 <br>
+										 
+										 <tr>
+										     <td><input type="checkbox" name="chk" id="chk" value="chk">
+						                     <label for="chk">Gluten Free Bread(75c extra)</label></td>
+										 </tr>
+										 
+								  </form>
+								 
+						   
+						   </table>
+                
+				</fieldset>
+				
+				<!--third -->
+				  <fieldset>
+				<legend>Snacks</legend>
+				           <table>
+						          <form>
+								         <tr><td><label>Snacks</label></td></tr>
+								         <tr>
+										     <td><input type="radio" name="radiobtn4" id="Apple" value="Apple">
+						                     <label for="Apple">Apple</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn4" id="Banana" value="Banana">
+						                     <label for="Banana">Banana</label></td>
+										 </tr>
+										 
+										 <tr>
+										     <td><input type="radio" name="radiobtn4" id="PotatoChips" value="PotatoChips">
+						                     <label for="PotatoChips">Potato Chips</label></td>
+										 </tr>
+								  </form>
+						   
+						   </table>
+                
+				</fieldset>
+				
+				<!--fourth -->
+				
+				<fieldset>
+				<legend>Order Information</legend>
+				           <table>
+						          <form>
+								         <tr><td><label>Drinks</label></td></tr>
+										 <tr>
+										     <td><input type="search" name="srh">
+						                     <label for="srh">Search</label></td>
+										 </tr>
+										 
+										 
+										 <tr>
+										     <td><input type="checkbox" name="check" id="check" value="check">
+						                     <label for="check">Large drink(75c extra)</label></td>
+										 </tr>
+								  </form>
+						   
+						   </table>
+                
+				</fieldset>
+				<br>
+				<tr><td><input type="submit" id="submit" value="Place Order"></td></tr>
+				
+				</fieldset>
+		</body>
+</html>
